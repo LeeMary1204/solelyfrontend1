@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const http = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://solelybackend1.onrender.com/api',
   timeout: 2000
 })
 

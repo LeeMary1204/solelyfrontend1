@@ -1,5 +1,4 @@
-import React, { useRef, useState } from 'react'
-import http from '../../utils/axios'
+import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { filterJobList } from '../../redux/reducer/jobReducer'
 export default function SelectForm () {
