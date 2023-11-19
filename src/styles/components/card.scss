@@ -1,0 +1,89 @@
+section.card {
+  .container {
+    .boxes {
+      background-color: rgb(245, 245, 247);
+      width: 1200px;
+      height: 500px;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      margin: {
+        top: 100px;
+        bottom: 50px;
+        left: auto;
+        right: auto;
+      }
+      .box {
+        width: 283px;
+        height: 100%;
+        &:first-child {
+          h2 {
+            height: 28px;
+            margin-bottom: 9px;
+            &.bottom-text {
+              text-align: center;
+            }
+          }
+          ul {
+            list-style: disc;
+            margin-bottom: 20px;
+            padding-left: 16px;
+            h6 {
+              font-size: 16px;
+              font-weight: 400;
+            }
+          }
+        }
+
+        .title {
+          padding: 16px;
+          background-color: #444;
+          color: #fff;
+          h3 {
+            color: #fff;
+            margin-bottom: 9px;
+            font-size: 18px;
+          }
+          span {
+            font-size: 14px;
+            color: #fff;
+          }
+        }
+
+        .boxContent {
+          padding: 16px;
+          box-sizing: border-box;
+          p {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            span {
+              font-size: 14px;
+              margin-right: 10px;
+            }
+          }
+
+          ul {
+            li {
+              height: 50px;
+              line-height: 50px;
+              font-size: 16px;
+              text-align: center;
+              border-bottom: 1px dotted rgb(221, 221, 221);
+              &:last-child {
+                border-bottom: 0px;
+              }
+            }
+          }
+        }
+
+        .leetcode {
+          color: rgb(230, 41, 41);
+          font-size: 13px;
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}

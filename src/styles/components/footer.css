@@ -1,0 +1,42 @@
+footer {
+  margin-top: 50px;
+  box-sizing: border-box;
+  padding: 60px 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 12.25rem;
+  background-color: #02020e;
+}
+
+footer .container {
+  width: 73.125rem;
+  padding: 0px 15px;
+  margin: 0px auto;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .container .btn {
+  background-color: #fff;
+  border: 0px;
+  color: #000;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+  height: 32px;
+  padding: 4px 15px;
+  border-radius: 6px;
+}
+
+footer .container .btn i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url(../../imgs/msg1.svg);
+  background-size: contain;
+  font-weight: bold;
+  vertical-align: text-bottom;
+  margin-right: 5px;
+}

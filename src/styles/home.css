@@ -1,0 +1,27 @@
+.gridList {
+  width: 1220px;
+  margin: 20px auto;
+  margin-top: 100px;
+}
+
+.gridList .boxes {
+  width: 100%;
+  display: flex;
+}
+
+.gridList .boxes .box {
+  width: 275px;
+  text-align: center;
+}
+
+.gridList .boxes .box h2 {
+  margin-bottom: 16px;
+}
+
+.gridList .boxes .box h2.title {
+  margin-top: 40px;
+}
+
+.gridList .boxes .box p {
+  margin-bottom: 16px;
+}
